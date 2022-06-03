@@ -1,41 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Instagram</title>
-</head>
-<body>
-    <div class="instagram-wrapper">
-        <div class="instagram-phone">
-            <img src="./img/instagram-celular.png" alt="celular">
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Roboto:wght@400;700&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Miltonian+Tattoo&family=Roboto:wght@400;700&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tattoogram</title>
+  </head>
+  <body>
+    <main id="wrapper">
+      <section class="banner-left"><!--Container Imagem (left)-->
+        <img src="images/smart.png" alt="" />
+      </section>
+
+      <section class="login-right"><!--Container Login (rigth)-->
+        <div class="group"><!--Container Login 1-->
+          <img class="logo" src="images/instagram-logo.png" alt="">
+          <div class="photo-perfil">
+            <img src="images//foto-perfil.jpeg" alt="Foto do perfil" />
+          </div>
+          <a href="#" class="button-login">Continue as tattoolover</a>
+          <a href="" class="button-log-out">Remove Account</a>
         </div>
-        <div class="instagram-continue">
-            <div class="group">
-                <img src="./img/instagram-logo.png" class="instagram-logo" alt="instagram logo">
-                <div class="profile-photo">
-                    <img src="./img/perfil-instagram.jpg" alt="foto de perfil">
-                </div>
-                <a href="#" class="instagram-login">Continue como sprucegabriela</a>
-                <a href="#" class="instagram-logout">Remover conta</a>
-            </div>
-            <div class="group">
-                <p class="not-account">Não é sprucegabriela?</p>
-                <p class="not-account">
-                    <span class="link-blue">Alternar contas</span>
-                    ou
-                    <span class="link-blue">Inscreva-se</span>
-                </p>
-            </div>
-            <div class="get-the-app">
-                <p class="get-app">Baixe o aplicativo</p>
-                <div class="download">
-                    <a href="#" class="app-download"></a>
-                    <a href="#" class="app-download"></a>
-                </div>
-            </div>
+
+        <div class="group"><!--Container Login 2-->
+          <p class="not-account">Not tattoolover?</p>
+          <p>
+            <a href="" class="button-log-out">Switch Accounts</a>
+            or
+            <a href="#" class="button-log-out">Sign Up</a>
+          </p>
         </div>
-    </div>
-</body>
+
+        <div class="group-get-app"><!--Container Login 3-->
+          <p class="get-app">Get the app</p>
+          <div class="donwload-button">
+            <a href="#" class="download-android"></a>
+            <a href="#" class="download-apple"></a>
+          </div>
+        </div>
+
+      </section>
+    </main>
+  </body>
 </html>
