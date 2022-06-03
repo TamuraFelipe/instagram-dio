@@ -35,7 +35,6 @@ section.banner-left img{
     object-fit: contain;
     overflow: hidden;
 }
-
 /*==========BLOCO DIREITO======*/
 .login-right{
     display: flex;
@@ -111,7 +110,6 @@ section.login-right .group-get-app p.get-app{
     width: 18.0rem;
     height: 4.0rem;
 }
-
 /*==========RESPONSIVEL==========*/
 @media (max-width: 768px){
     section.banner-left img{
@@ -124,7 +122,6 @@ section.login-right .group-get-app p.get-app{
         width: 100%;
     }
 }
-
 @media (max-width: 425px){
     main#wrapper{
         width: 100%;
@@ -132,7 +129,6 @@ section.login-right .group-get-app p.get-app{
     }
     
 }
-
 @media (max-width: 320px){
     section.login-right .group{
         border: 1px solid transparent;
